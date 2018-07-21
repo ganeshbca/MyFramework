@@ -29,6 +29,6 @@ script:
     fi
 
   # Run `pod lib lint` if specified
-  - if [ $POD_LINT == "YES" ]; then
-      pod lib lint --verbose;
-    fi
+  # - if [ $POD_LINT == "YES" ]; then
+  #    pod lib lint --verbose;
+  #  fi
