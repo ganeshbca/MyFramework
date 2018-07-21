@@ -1,6 +1,6 @@
 # MyFramework.swift
 
-[![Build Status](https://travis-ci.org/eneko/MyFramework.swift.svg?branch=master)](https://travis-ci.org/eneko/MyFramework.swift)
+[![Build Status](https://travis-ci.org/ganeshbca/MyFramework.svg?branch=master)](https://travis-ci.org/ganeshbca/MyFramework)
 
 This code is not meant to be used by anyone, as it belongs to the follwing tutorial:
 
