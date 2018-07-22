@@ -19,7 +19,7 @@ script:
 
   # Build Framework in Debug and Run Tests if specified
  # - xcodebuild -project "$PROJECT" -scheme "$SCHEME" -configuration Debug ONLY_ACTIVE_ARCH=NO test | xcpretty -c;
-  - xcodebuild -project MyFramework.xcodeproj -scheme MyFrameworkiOS -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=11.4' test
+  - xcodebuild -project MyFramework.xcodeproj -scheme MyFrameworkiOS -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.3.1' test
 
   # Run `pod lib lint` if specified
   # - if [ $POD_LINT == "YES" ]; then
