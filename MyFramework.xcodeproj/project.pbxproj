@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F2171CC21030C7B00360730 /* MyFrameworkiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2171C321030C7B00360730 /* MyFrameworkiOS.framework */; };
 		1F2171D121030C7B00360730 /* MyFrameworkiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2171D021030C7B00360730 /* MyFrameworkiOSTests.swift */; };
 		1F2171D321030C7B00360730 /* MyFrameworkiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2171C521030C7B00360730 /* MyFrameworkiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F2171DD21030D7500360730 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2171DC21030D7500360730 /* Car.swift */; };
@@ -47,7 +46,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F2171CC21030C7B00360730 /* MyFrameworkiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +380,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cidaas.MyFrameworkiOS;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -410,7 +408,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cidaas.MyFrameworkiOS;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -430,6 +428,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cidaas.MyFrameworkiOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,6 +448,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cidaas.MyFrameworkiOSTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
