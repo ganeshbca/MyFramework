@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "MyFrameworkGK"
-s.version      = "0.0.1"
+s.version      = "0.0.1.1"
 s.summary      = "MyFramework with a Car to track miles."
 s.homepage     = "https://github.com/ganeshbca/MyFramework"
 s.license      = "MIT"
